@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>待機児童問題</title>
+
+    <link rel="stylesheet" href="kadai.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load("visualization", "1", {
+            packages: ["corechart"]
+        });
+        google.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['年度', '待機児童数'],
+                ['平成22年', 26275], ['平成23年', 25556], ['平成24年', 24825],
+                ['平成25年', 22741], ['平成26年', 21371]]);
+            var options = {
+                title: '人'
+            };
+            var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
+
+    <script type="text/javascript">
+        google.load("visualization", "1", {
+            packages: ["corechart"]
+        });
+        google.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['年度', '共働き世帯'],
+                ['平成22年', 1012], ['平成23年', 987], ['平成24年', 1054],
+                ['平成25年', 1065], ['平成26年', 1077]]);
+            var options = {
+                title: '万世帯'
+            };
+            var chart = new google.visualization.LineChart(document.getElementById('google_div'));
+            chart.draw(data, options);
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div id="header" class="container">
+
+            <h1>待機児童問題</h1>
+
+            <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="#">ホーム</a>
+                </li>
+                <li role="presentation"><a href="#">お問い合わせ</a>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+    <div class="container">
+        <p> 平成２６年４月１日時点の待機児童数は、厚生労働省のまとめによると全国で２万１３７１人。
+            <br>下のグラフから分かる通り、５年連続で減っているものの、２万人を超えたままとなっている。
+            <br>自治体は保育所や定員を増やしてはいる。
+            <br>認可保育所の定員は２３３万６千人で、前年より４万７千人分増えた。
+            <br>しかし、保育所を利用したい人も増えている。
+            <br>背景にあるのは、共働き世帯の増加だ。男性の年功序列型の賃金制度が崩れたり、非正規雇用が増えたり、夫婦で働かざるをえない状況がある。
+            <br>いまの子育て世代には、子どもが生まれてからも仕事を続けるライフスタイルが浸透してきていることもある。</p>
+    </div>
+
+    <div class="none">
+        <div class="container">
+            待機児童数のグラフ
+        </div>
+
+        <div id="chart_div" style="width: 1000px; height: 400px;"></div>
+
+        <div class="container">
+            共働き世帯数のグラフ　(平成23年は東日本大震災の影響により岩手県、宮城県及び福島県を除く全国の結果。)
+        </div>
+
+
+        <div id="google_div" style="width: 1000px; height: 400px;"></div>
+    </div>
+
+
+
+    <div class="container">
+        <p>また、待機児童の約８５％が０～２歳であり、待機児童の大部分は都市部に集中している。
+            <br> ２０１４年４月１日時点では、東京、埼玉、千葉、神奈川、京都、大阪、兵庫の７都府県と、その他の政令指定都市・中核市で全待機児童の約８割を占めた。
+            <br>そのため、自治体が新たに認可保育所をつくろうとしても、都市部では用地不足に悩まされている。
+            <br>認可保育所は、国の基準にあった施設の広さや、園庭が必要だ。
+            <br>だが基準にみあう用地を確保するのが難しいのだ。
+            <br>ほかにも、財源や保育士不足、「子どもの声がうるさい」といった住民の反対などで、新しい保育園はなかなかつくれない。
+            <br>待機児童とは、認可保育所への入所を申請したにもかかわらず、入所できずに順番待ちをしている子どものことだ。
+            <br>しかし、実際の数え方は自治体の判断にゆだねられている。
+            <br>数え方が統一されていないため、待機児童の「実態」はつかめない。
+
+            <br> 待機児童の解消は、女性の就業機会を増やす切り札の一つとみられている。
+            <br>長時間労働といった働き方の見直しや人口減への対策などにもつながっている。
+            <br>安倍政権は、１７年度末までに４０万人分の保育の受け皿を増やす考えだ。</p>
+    </div>
+
+    <div class="container">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>年</th>
+                    <th>待機児童数</th>
+                    <th>低年齢児(0~2歳)待機児童数</th>
+                    <th>割合</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>平成22年</td>
+                    <td>26275</td>
+                    <td>21537</td>
+                    <td>82.0%</td>
+                </tr>
+                <tr>
+                    <td>平成23年</td>
+                    <td>25556</td>
+                    <td>21109</td>
+                    <td>82.6%</td>
+                </tr>
+                <tr>
+                    <td>平成24年</td>
+                    <td>24825</td>
+                    <td>20207</td>
+                    <td>81.4%</td>
+                </tr>
+                <tr>
+                    <td>平成25年</td>
+                    <td>22741</td>
+                    <td>18656</td>
+                    <td>82.0%</td>
+                </tr>
+                <tr>
+                    <td>平成26年</td>
+                    <td>21371</td>
+                    <td>18062</td>
+                    <td>84.5%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+    <div id="footer" class="container" style="background:black;color:white">
+        <div class="row">
+            <div class="col-sm-4 col-xs-3">ご利用にあたって
+                <ul>
+                    <li><a href="">このサイトについて</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-xs-3">参考サイト
+                <ul>厚生労働省
+                    <li><a href="http://www.mhlw.go.jp/stf/houdou/0000078441.html" target="_blank">「保育所入所待機児童数（平成26年10月）</a>
+                    </li>
+                    <li><a href="http://www.mhlw.go.jp/stf/houdou/0000022684.html" target="_blank">「保育所関連状況取りまとめ」（平成25年4月1日）</a>
+                    </li>
+                </ul>
+                <ul>朝日新聞デジタル
+                    <li><a href="http://www.asahi.com/special/taikijido/" target="_blank">「待機児童問題」</a>
+                    </li>
+                </ul>
+                <ul>独立行政法人労働政策研究・研修機構
+                    <li><a href="http://www.jil.go.jp/kokunai/statistics/qa/a07-1.html" target="_blank">「専業主婦世帯数と共働き世帯数の推移」</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-xs-3">作成者について
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100008147658482" target="_blank">facebook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
