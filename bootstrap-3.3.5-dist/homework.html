@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>自動車販売の動向</title>
+
+    <link rel="stylesheet" href="homework.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div id="header" class="container">
+
+            <h1>katoのページ</h1>
+
+            <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="#">卒業課題</a>
+                </li>
+
+
+            </ul>
+
+
+        </div>
+    </div>
+
+    <div class="container">
+
+
+        <div class="row" style="padding:60px 0 0 0">
+
+            <div class="col-md-3">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        目次
+                    </div>
+
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#a1"><i class="glyphicon glyphicon-pencil"></i> 1.新車販売台数</a>
+                        </li>
+                        <li><a href="#a2"><i class="glyphicon glyphicon-download"></i> 2.人気車種ランキング</a>
+                        </li>
+                        <li><a href="#a3"><i class="glyphicon glyphicon-leaf"></i> 3.維持費比較</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="col-md-9">
+            <h2 id="a1">1.新車販売台数</h2>
+            <p>自販連の<a href="http://www.jada.or.jp/contents/data/index.html" target="_blank">新車・年別販売数</a>を元に自動車の種類ごとの新車販売台数のグラフを作成した。</p>
+        </div>
+
+        <div class="none">
+            <div class="container">
+                <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1_Ey6VKTfmm35_oQnfZwfT-mZwHEwOFB2A_LiLjsH4Pk/pubchart?oid=206234154&amp;format=interactive"></iframe>
+
+
+            </div>
+        </div>>
+
+        <div class="container">
+            <p>普通乗用車の販売台数に大きな変化はなく、毎年およそ140万台販売している。
+                <br>しかし、小型乗用車と軽乗用車の販売台数は大きく変化している。
+                <br>小型乗用車の販売台数は2012年には約160万台と3つの中で最も売れていたが、その翌年から減少し、2015年には約135万台と他の2つに追い抜かれた。
+                <br>一方で軽乗用車の販売台数は2014年まで増加しており、2015年に減少はしたものの、3つの中で最も売れている。
+                <br>また、2015年は普通・小型・軽乗用車すべての販売台数が減少していることが分かる。
+                <br>(普通・小型・軽乗用車の違いについては<a href="http://xn--nckg3oobb4513c2on9q5euhyaroau50d.com/car-name-definition-522/" target="_blank">こちら</a>)
+            </p>
+        </div>>
+    </div>
+
+    <div class="container">
+        <h2 id="a2">2.人気車種ランキング</h2>
+        <p>自販連の<a href="http://www.jada.or.jp/contents/data/ranking.html" target="_blank">新車乗用車販売台数月別ランキング</a>、全軽自協の<a href="https://www.zenkeijikyo.or.jp/statistics/" target="_blank">軽四輪車通称名別新車販売確報</a>を元に作成。</p>
+
+        <h3>2015年（1～12月）</h3>
+        <table class="sample table table-striped table-bordered">
+
+            <thead>
+                <tr>
+                    <th>順位</th>
+                    <th>1位</th>
+                    <th>2位</th>
+                    <th>3位</th>
+                    <th>4位</th>
+                    <th>5位</th>
+                    <th>6位</th>
+                    <th>7位</th>
+                    <th>8位</th>
+                    <th>9位</th>
+                    <th>10位</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>車名</td>
+                    <td>アクア</td>
+                    <td>N BOX</td>
+                    <td>タント</td>
+                    <td>デイズ</td>
+                    <td>プリウス</td>
+                    <td>ムーヴ</td>
+                    <td>フィット</td>
+                    <td>アルト</td>
+                    <td>カローラフィールダー</td>
+                    <td>ワゴンR</td>
+                </tr>
+                <tr>
+                    <td>メーカー</td>
+                    <td>トヨタ</td>
+                    <td>ホンダ</td>
+                    <td>ダイハツ</td>
+                    <td>日産</td>
+                    <td>トヨタ</td>
+                    <td>ダイハツ</td>
+                    <td>ホンダ</td>
+                    <td>スズキ</td>
+                    <td>トヨタ</td>
+                    <td>スズキ</td>
+                </tr>
+                <!--
+                <tr>
+                    <td>乗車定員</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                    <td>4人</td>
+                    <td>4人</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                </tr>
+-->
+                <tr>
+                    <td>分類</td>
+                    <td>小型乗用車</td>
+                    <td>軽自動車</td>
+                    <td>軽自動車</td>
+                    <td>軽自動車</td>
+                    <td>小型乗用車</td>
+                    <td>軽自動車</td>
+                    <td>小型乗用車</td>
+                    <td>軽自動車</td>
+                    <td>小型乗用車</td>
+                    <td>軽自動車</td>
+                </tr>
+
+                <tr>
+                    <td>燃費(km/L)</td>
+                    <td>37.0</td>
+                    <td>25.6</td>
+                    <td>28.0</td>
+                    <td>25.8</td>
+                    <td>40.8</td>
+                    <td>31.0</td>
+                    <td>36.4</td>
+                    <td>37.0</td>
+                    <td>33.8</td>
+                    <td>33.0</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <h3>2016年（1～11月）</h3>
+        <table class="sample table table-striped table-bordered">
+
+            <thead>
+                <tr>
+                    <th>順位</th>
+                    <th>1位</th>
+                    <th>2位</th>
+                    <th>3位</th>
+                    <th>4位</th>
+                    <th>5位</th>
+                    <th>6位</th>
+                    <th>7位</th>
+                    <th>8位</th>
+                    <th>9位</th>
+                    <th>10位</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>車名</td>
+                    <td>プリウス</td>
+                    <td>N BOX</td>
+                    <td>アクア</td>
+                    <td>タント</td>
+                    <td>シエンタ</td>
+                    <td>フィット</td>
+                    <td>デイズ</td>
+                    <td>アルト</td>
+                    <td>ムーヴ</td>
+                    <td>ノート</td>
+                </tr>
+                <tr>
+                    <td>メーカー</td>
+                    <td>トヨタ</td>
+                    <td>ホンダ</td>
+                    <td>トヨタ</td>
+                    <td>ダイハツ</td>
+                    <td>トヨタ</td>
+                    <td>ホンダ</td>
+                    <td>日産</td>
+                    <td>スズキ</td>
+                    <td>ダイハツ</td>
+                    <td>日産</td>
+                </tr>
+                <!--
+                <tr>
+                    <td>乗車定員</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                    <td>4人</td>
+                    <td>4人</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                    <td>5人</td>
+                    <td>4人</td>
+                </tr>
+-->
+                <tr>
+                    <td>分類</td>
+                    <td>小型乗用車</td>
+                    <td>軽自動車</td>
+                    <td>小型乗用車</td>
+                    <td>軽自動車</td>
+                    <td>小型乗用車</td>
+                    <td>小型乗用車</td>
+                    <td>軽自動車</td>
+                    <td>軽自動車</td>
+                    <td>軽自動車</td>
+                    <td>小型乗用車</td>
+                </tr>
+
+                <tr>
+                    <td>燃費(km/L)</td>
+                    <td>40.8</td>
+                    <td>25.6</td>
+                    <td>37.0</td>
+                    <td>28.0</td>
+                    <td>27.2</td>
+                    <td>36.4</td>
+                    <td>25.8</td>
+                    <td>37.0</td>
+                    <td>31.0</td>
+                    <td>37.2</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <p>ランキング中2015年では6車種が、2016年では5車種が軽自動車であり、残りは小型乗用車となった。
+            <br>そして軽自動車の中でも人気なのが車内空間の広いトールワゴンタイプや使いやすいセミトールタイプとなっており、
+            <br>また、2016年に新たにランクインしたシエンタ、ノートも車内空間の広いミニバンタイプとなっている。
+            <br>さらに普通車はすべて燃費の良いハイブリッドカーであり、軽自動車においても燃費の良い車が人気であることが分かる。つまり、
+        </p>
+        <ol>
+            <li>小回りが利き、駐車しやすい小型の車</li>
+            <li>車の中でのびのび過ごせる車内空間の広い車</li>
+            <li>ハイブリッドカーといった低燃費の車</li>
+            <li>エコカー減税が適用された車</li>
+        </ol>
+
+        <p>この４つの条件が最近の車選びで重視されるポイントだと考えられる。</p>
+
+
+
+    </div>
+
+    <div class="container">
+        <h2 id="a3">3.維持費比較</h2>
+
+        <p>2016年に人気だった10車種の購入してから3年間の維持費をグラフ化、比較した。
+            <br>維持費の計算は</p>
+        <ul>
+            <li>自賠責保険</li>
+            <li>ガソリン代（年間走行距離を１万㎞、ガソリン代を１ℓ１２０円で計算）</li>
+            <li>自動車税</li>
+            <li>自動車取得税</li>
+            <li>重量税</li>
+        </ul>
+        <p>をすべて足した値としている。</p>
+
+        <div class="none">
+
+            <iframe width="1000" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/10byHBwk4Pl9JEapoZpf8aEcCIr6i-xu4zUjnGvaHzRE/pubchart?oid=1574422188&format=interactive"></iframe>
+
+        </div>
+        <p>このグラフから、新車を購入してから３年間の維持費に関しては小型乗用車も軽自動車もそこまで大きな差はないということが分かる。
+            <br>この事実にはエコカー減税が大きく関わっている。
+            <br>プリウス（特別仕様車 S 2WD）を例に出すと、本来なら３年間の維持費は</p>
+        <ul>
+            <li>自賠責保険　39,120円</li>
+            <li>ガソリン代　3万㎞ ÷ 40.8（km/L）× 120 = 88,235円</li>
+            <li>自動車税　約39,500 × 3年 = 118,500円</li>
+            <li>自動車取得税　約67,300円</li>
+            <li>重量税　約22,500円</li>
+        </ul>
+        <p>となり、合計すると約335,655円になる。
+            <br>しかしエコカー減税が適用されると、自動車取得税・重量税は100％減税、自動車税は登録翌年度のみ約75％減税されるので
+            <br>自動車取得税　約67,300円 + 重量税　約22,500円 + 自動車税 約29,500円　= 合計約119,300円減税される。
+
+            <br>では、軽自動車のN BOX（G・Lパッケージ、FF/CVT）の場合だと
+            <ul>
+                <li>自賠責保険　36,920円</li>
+                <li>ガソリン代　3万㎞ ÷ 25.6（km/L）× 120 = 140,625円</li>
+                <li>自動車税　約10,800 × 3年 = 32,400円</li>
+                <li>自動車取得税　約23,300円</li>
+                <li>重量税　約7,500円</li>
+            </ul>
+            <p>となり合計すると約240,745円になる。
+                <br>つまり、自動車取得税　約14,000円 + 重量税　約3,800円 + 自動車税 約2,700円　= 合計約20,500円減税される
+                <br>自動車の排気量やサイズで決まる税金がエコカー減税で減税されることにより、普通自動車の減税額が小型自動車よりも大きくなる。
+                <br>したがって小型乗用車と軽自動車の維持費があまり変わらないという結果になっている。
+            </p>
+    </div>
+
+
+
+    <div id="footer" class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-3">参考サイト
+                <ul>
+                    <li><a href="https://toyota.jp/ecocar/" target="_blank">TOYOTA</a>
+                    </li>
+                    <li><a href="http://www.honda.co.jp/green-tax/" target="_blank">HONDA</a>
+                    </li>
+                    <li><a href="http://www2.nissan.co.jp/EVENT/TAX/" target="_blank">日産</a>
+                    </li>
+                    <li><a href="http://www.suzuki.co.jp/car/ecocar_info/" target="_blank">スズキ</a>
+                    </li>
+                    <li><a href="https://www.daihatsu.co.jp/learning/tax/green/" target="_blank">ダイハツ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-xs-3">
+                <ul>
+                    <li><a href="http://www.jada.or.jp/contents/data/index.html" target="_blank">一般社団法人　日本自動車販売協会連合会</a>
+                    </li>
+                    <li><a href="http://www.car.razor.jp/57.html" target="_blank">車の選び方・購入ガイド！</a>
+                    </li>
+                    <li>
+                        <a href="http://xn--nckg3oobb4513c2on9q5euhyaroau50d.com/car-name-definition-522/" 　target="_blank">軽自動車専門情報サイト</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-xs-3">作成者について
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100008147658482" target="_blank">facebook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+
+$(function() {
+  $("#toc").tocify();
+});
